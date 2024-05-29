@@ -29,11 +29,16 @@ body {
   background-color: rgb(20, 20, 20);
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
 }
 #menu {
-  height: 100vh;
   display: flex;
   align-items: center;
+
+  padding: 0;
+  margin: 0;
 }
 .menu-item {
   color: white;
